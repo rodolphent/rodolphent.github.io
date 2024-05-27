@@ -13,14 +13,14 @@ body {
 .infos {
     display: flex;
     flex-direction: column;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
 }
 
 .right {
     display: flex;
     flex-direction: column;
     flex-grow: 65;
-    background-color: red;
+    /*background-color: red;*/
 }
 .pp {
     display: flex;
@@ -29,38 +29,43 @@ body {
     margin: 0 auto;
     width: 50vh;
     height: 500px;
-    background-color: whitesmoke;
+    background-color: #D9D9D9;
+    
 }
 
 .data {
     width: 50vh;
     height: 300px;
-    background-color:aqua;
+    /*background-color:aqua;*/
+    background-color: #EBEBEB;
 }
 
 .big-text {
-    background-color: yellow;
+    /*background-color: yellow;*/
     font-size: 70px;
     align-self: center;
+    padding-bottom: 0;
 }
 
 .medium-text {
     margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: orange;
+    margin-bottom: 10px;
+    /*background-color: orange;*/
     font-size: 30px;
-    justify-content: center;
+    margin-left: 7px;
 }
 
 .proj {
-    background-color: green;
+    /*background-color: green;*/
+    background-color: #F4F4F4;
     height: 100%;
     margin: 10px;
-
+    padding: 20px;
+    border-radius: 25px;
 }
 .left {
     padding : 10px;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 .round {
@@ -170,10 +175,10 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     }
     
-    .div1 { grid-area: 1 / 1 / 4 / 4; background-color: antiquewhite;}
-    .div2 { grid-area: 1 / 4 / 4 / 7; background-color: aqua;}
+    .div1 { grid-area: 1 / 1 / 4 / 4; background-color: #A6C8B9;}
+    .div2 { grid-area: 1 / 4 / 4 / 7; background-color: #C5E7F8;}
     .div3 { grid-area: 1 / 7 / 4 / 9; background-color: purple;}
