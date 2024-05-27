@@ -28,13 +28,13 @@ body {
     align-items: center;
     margin: 0 auto;
     width: 50vh;
-    height: 450px;
+    height: 500px;
     background-color: whitesmoke;
 }
 
 .data {
     width: 50vh;
-    height: 400px;
+    height: 300px;
     background-color:aqua;
 }
 
@@ -101,6 +101,7 @@ body {
     width: 100%;
     flex-wrap: wrap ;
     background-color: antiquewhite;
+
 }
 
 
@@ -129,6 +130,8 @@ body {
 .icons img {
     height: 50px; /* Adjust as needed */
     margin: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
     
 }
 
