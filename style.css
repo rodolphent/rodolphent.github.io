@@ -75,11 +75,11 @@ body {
 }
 
 .name {
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .abtme {
-    font-size: 25px;
+    font-size: 20px;
     align-self: flex-start;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -128,16 +128,21 @@ body {
 }
 
 .icons img {
-    height: 50px; /* Adjust as needed */
+    height: 50px; 
     margin: 20px;
     margin-top: 0;
     margin-bottom: 10px;
     
 }
 
-.title {
+.title .image {
     display: flex;
     
+}
+
+.container-card .image-wrapper {
+    display: flex;
+    justify-content: center;
 }
 /*fonts*/
 .poppins-regular {
