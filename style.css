@@ -79,6 +79,17 @@ body {
     font-size: 30px;
     align-self: flex-start;
 }
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+}
+
+
+
 /*grid*/
 
 .parent {
