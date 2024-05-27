@@ -40,7 +40,7 @@ body {
 
 .big-text {
     background-color: yellow;
-    font-size: 80px;
+    font-size: 70px;
     align-self: center;
 }
 
@@ -75,11 +75,11 @@ body {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .abtme {
-    font-size: 30px;
+    font-size: 25px;
     align-self: flex-start;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -134,6 +134,20 @@ body {
     margin-bottom: 10px;
     
 }
+
+.title {
+    display: flex;
+    
+}
+/*fonts*/
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
 
 /*grid*/
 
