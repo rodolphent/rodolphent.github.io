@@ -28,13 +28,13 @@ body {
     align-items: center;
     margin: 0 auto;
     width: 50vh;
-    height: 550px;
+    height: 450px;
     background-color: whitesmoke;
 }
 
 .data {
     width: 50vh;
-    height: 300px;
+    height: 400px;
     background-color:aqua;
 }
 
@@ -81,13 +81,15 @@ body {
 .abtme {
     font-size: 30px;
     align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .logos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 60px;
+    height: 40px;
     width: 100%;
 }
 
