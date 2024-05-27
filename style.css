@@ -27,13 +27,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    width: 65vh;
-    height: 600px;
+    width: 55vh;
+    height: 550px;
     background-color: whitesmoke;
 }
 
 .data {
-    width: 65vh;
+    width: 55vh;
     height: 300px;
     background-color:aqua;
 }
@@ -41,7 +41,7 @@ body {
 .big-text {
     background-color: yellow;
     font-size: 80px;
-    justify-content: center;
+    align-self: center;
 }
 
 .medium-text {
@@ -89,7 +89,9 @@ body {
 }
 
 
-
+.container-card {
+    padding: 20px;
+}
 /*grid*/
 
 .parent {
