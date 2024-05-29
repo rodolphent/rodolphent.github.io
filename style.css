@@ -1,15 +1,21 @@
 body {
+
     margin: 0;
     padding: 0;
 }
 
 .main {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+
+    height: 200vh;
+
 
 }
+.left-placeholder {
+    display: flex;
+    flex-direction: column;
 
+
+}
 .infos {
     display: flex;
     flex-direction: column;
@@ -17,6 +23,7 @@ body {
 }
 
 .right {
+    margin-left: 450px;
     display: flex;
     flex-direction: column;
     flex-grow: 65;
@@ -65,7 +72,8 @@ body {
 }
 .left {
     padding : 10px;
-    /*background-color: blue;*/
+    position: fixed;
+    background-color: blue;
 }
 
 .round {
