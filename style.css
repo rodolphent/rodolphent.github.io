@@ -44,7 +44,7 @@ a {
 
 .data {
     width: 50vh;
-    height: 300px;
+    padding-bottom: 5px;
     /*background-color:aqua;*/
     background-color: #EBEBEB;
 }
@@ -163,7 +163,7 @@ a {
 }
 
 .icons img {
-    height: 50px; 
+    height: 45px; 
     margin: 20px;
     margin-top: 0;
     margin-bottom: 10px;
