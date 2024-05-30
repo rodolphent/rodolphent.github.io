@@ -2,6 +2,7 @@ body {
 
     margin: 0;
     padding: 0;
+    background-color: #FBFBFB;
 }
 
 a {
@@ -53,6 +54,7 @@ a {
     font-size: 70px;
     align-self: center;
     padding-bottom: 0;
+    text-align: center;
 }
 
 .medium-text {
@@ -177,21 +179,6 @@ a {
     display: flex;
     justify-content: center;
 }
-/*fonts*/
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-.tools {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
 
 /*grid*/
 
@@ -208,3 +195,95 @@ a {
 .div1 { grid-area: 1 / 1 / 4 / 4; background-color: #A6C8B9;}
 .div2 { grid-area: 1 / 4 / 4 / 7; background-color: #C5E7F8;}
 .div3 { grid-area: 1 / 7 / 4 / 9; background-color: purple;}
+
+/* responsivity */
+
+@media (max-width: 1100px) {
+    /* Your custom CSS for screens less than 1100px wide */
+    body {
+        /* Example CSS */
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .left {
+        position: static;
+    }
+
+    .right {
+        margin-left: 0;
+    }
+
+    .pp {
+        width: 100%;
+        
+    
+    }
+    .data {
+        width: 100%;
+        height: auto;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name {
+        font-size: 25px;
+    
+    }
+
+    .big-text {
+        font-size: 50px;
+    }
+
+    .icons img {
+        margin: 10px;
+    }
+    .parent {
+        display: block
+    }
+    .container-card {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .div1 .container-card{
+        background-color: #A6C8B9;
+    }
+
+    .div2 .container-card{
+        background-color: #C5E7F8;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+
+/*fonts*/
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.tools {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
