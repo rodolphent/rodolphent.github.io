@@ -26,7 +26,7 @@ a {
 }
 
 .right {
-    margin-left: 450px;
+    margin-left: 55vh;
     display: flex;
     flex-direction: column;
     flex-grow: 65;
