@@ -242,7 +242,11 @@ a {
 }
 
 
-
+.pp-image {
+    width: 80%; 
+    height: auto; 
+    object-fit: cover; 
+}
 
 
 
