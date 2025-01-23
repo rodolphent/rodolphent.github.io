@@ -264,10 +264,10 @@ a {
 
 .div1 { grid-area: 1 / 1 / 2 / 5;  background-color: #35D2D8;}
 .div2 { grid-area: 1 / 5 / 2 / 7; background-color: #FF7272;}
-.div3 { grid-area: 2 / 1 / 3 / 5; background-color: #007BFF ;}
+.div3 { grid-area: 2 / 1 / 3 / 5; background-color:  #39E8B0;}
 .div4 { grid-area: 2 / 5 / 3 / 7; background-color: #A6C8B9 ;}
 .div5 { grid-area: 3 / 1 / 4 / 3; background-color: #C5E7F8 ;}
-.div6 { grid-area: 3 / 3 / 4 / 7; background-color:  #39E8B0;}
+.div6 { grid-area: 3 / 3 / 4 / 7; background-color:  #007BFF;}
 .div7 { grid-area: 4 / 1 / 5 / 5; background-color: #BA98ED ;}
 .div8 { grid-area: 4 / 5 / 5 / 7; background-color: #FBCB76;}
 .div9 { grid-area: 5 / 1 / 6 / 5; background-color: #FFA600;}
